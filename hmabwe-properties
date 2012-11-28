@@ -1,0 +1,12 @@
+#
+#Mon Dec 05 17:18:29 CET 2011
+mserveur=smtp.unice.fr
+pport=1521
+type_persistance=jpa
+mmdp=moeanui22
+puser=paraita
+mport=465
+pserveur=192.168.56.101
+pmdp=azerty
+muser=wp803469@etu.unice.fr
+psid=xe

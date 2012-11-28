@@ -1,0 +1,12 @@
+#
+#Fri Nov 18 12:05:06 CET 2011
+mserveur=
+pport=1521
+type_persistance=jpa
+mmdp=
+puser=paraita
+mport=
+pserveur=192.168.56.101
+pmdp=azerty
+muser=
+psid=xe

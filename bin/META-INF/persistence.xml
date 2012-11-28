@@ -1,0 +1,26 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+  <persistence-unit name="persistance" transaction-type="RESOURCE_LOCAL">
+  <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+  <class>fr.unice.hmabwe.modele.Personne</class>
+  <class>fr.unice.hmabwe.modele.Enseignant</class>
+  <class>fr.unice.hmabwe.modele.Etudiant</class>
+  <class>fr.unice.hmabwe.modele.Filiere</class>
+  <class>fr.unice.hmabwe.modele.Inscription</class>
+  <class>fr.unice.hmabwe.modele.Cours</class>
+  <class>fr.unice.hmabwe.modele.Coefficient</class>
+  <properties>
+    <property name="javax.persistence.jdbc.driver"
+       value="oracle.jdbc.driver.OracleDriver"/>
+    <property name="javax.persistence.jdbc.url"
+      value="jdbc:oracle:thin:@192.168.56.101:1521:xe"/>
+    <property name="javax.persistence.jdbc.user"  
+      value="paraita"/>
+    <property name="javax.persistence.jdbc.password" 
+      value="azerty"/>
+    <property name="eclipselink.ddl-generation" 
+      value="create-tables"/>
+    <property name="eclipselink.logging.level" 
+      value="OFF"/>
+  </properties>
+  </persistence-unit>
+</persistence>
